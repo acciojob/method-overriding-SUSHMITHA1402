@@ -12,8 +12,10 @@ class B extends A{
 }
 public class Main {
     public static void main(String[] args) {
-        B object = new B();
+        A object = new B();
         object.meth();
+        B obj = new B();
+        obj.meth();
 
     }
   
